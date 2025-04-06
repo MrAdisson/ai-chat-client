@@ -99,7 +99,7 @@ const AIChat = () => {
               backgroundColor: message.role === 'user' ? '#e0f7fa' : '#ffe0b2',
               padding: '10px',
               borderRadius: '5px',
-              margin: '5px 0',
+              margin: '5px auto',
               width: 400,
               textAlign: message.role === 'user' ? 'right' : 'left',
             }}
