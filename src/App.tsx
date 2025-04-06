@@ -1,4 +1,5 @@
 import AIChat from './AIChat';
+import AIImageGenerator from './AIImageGenerator';
 import './App.css';
 import viteLogo from '/vite.svg';
 
@@ -13,6 +14,7 @@ function App() {
         <div>{API_WORKER_URL}</div>
 
         <AIChat />
+        <AIImageGenerator />
       </div>
     </>
   );
